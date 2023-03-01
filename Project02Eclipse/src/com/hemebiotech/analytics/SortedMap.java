@@ -23,12 +23,7 @@ public class SortedMap {
 				compteurs.put(line, 1);
 			}
 		}
-		/*
-		 * if (compteurs.containsKey(line)) { // si la ligne contient déjà la ligne, on
-		 * incrémente le compteur qui est associé compteurs.put(line,
-		 * compteurs.get(line) + 1); } else { // sinon on ajoute l'association en
-		 * initialisant le compteur à 1 compteurs.put(line, 1L); }
-		 */
+
 		return compteurs;
 	}
 
